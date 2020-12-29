@@ -1,1 +1,1 @@
-### Aim of the experiment
+To determine the ductility value of asphaltic bitumen.
