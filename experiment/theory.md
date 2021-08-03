@@ -11,11 +11,13 @@
 <p style="text-indent:50px; text-align:justify;">Ductility is one such property of bitumen which is dependent on the purpose of construction. Ductility is the property that permits the material to undergo great deformation or elongation. Indirectly, ductility measures the adhesive property of bitumen and its ability to stretch. It is necessary that binder should form a thin ductile film around aggregates to improve the interlocking of the aggregates in flexible pavements. It is important in pavement to resist crack due to temperature or traffic stresses to avoid damage the pavement structure. Specifically, the ductility of a bituminous material is defined as the distance in centimeters, to which it will elongate before breaking when two ends of a briquette specimen of the material are pulled apart at a specified speed and a specified temperature. A temperature of 25 &plusmn; 0.5 &deg;C and pulling speed of 5 cm/min &plusmn; 5.0 % is to be maintained while carrying out the experiment. The ductility of a bitumen specimen mainly gives information about the tensile strength and ductility grade of bitumen.</p>
 
 <center>
-  <img src="images/Briquette.JPG" height="253" width="380">
+  <img src="images/apparatus.png">
 </center>
+<center>
+  Source: (<a href="http://www.expertsmind.com/questions/ductility-test-30129393.aspx">http://www.expertsmind.com/questions/ductility-test-30129393.aspx</a>)
+</center>
+<center>Ductility Test on Bitumen</center><br>
 
-<center>Briquette Mould</center><br>
-<center>(Source: IS 1208 -1978: Methods for Testing Tar and Bituminous Materials: Determination of Ductility)</center><br>
 
 <p style="text-indent:50px; text-align:justify;">Due to temperature stress’s roads expand at daytime and contract at night. So, if the bitumen is not adequately ductile cracking will occur. The ductility value of bitumen usually varies from 5 to over 100 cm’s and several standards have specified minimum ductility values for various pavement types. However a ductility value of 100 cm’s is specified generally for bituminous construction. Ductility value of bitumen varies based on source of it, the minimum values of ductility specified by ISI for various grades are as follows.</p>
 
@@ -50,7 +52,8 @@
 </tr>
 </table></center>
 
-<center>(Source: The Constructor, Civil Engineering Home)</center><br>
+<center>(Source: Minimum ductility value for different source of Paving Bitumen and Penetration Grade)</center><br>
 
 <p style="text-indent:50px; text-align:justify;"><strong>Relevant Indian Standard for Ductility Test on Bitumen</strong>: </p>
 <p style="text-indent:50px; text-align:justify;">IS 1208 -1978 Edition 2.1 (2004-10): Methods for Testing Tar and Bituminous Materials: Determination of Ductility (First Revision).</p>
+<p>IS 383-1970: Specification for Coarse and Fine Aggregates.</p>
