@@ -11,7 +11,7 @@
 <p style="text-indent:50px; text-align:justify;">Ductility is one such property of bitumen which is dependent on the purpose of construction. Ductility is the property that permits the material to undergo great deformation or elongation. Indirectly, ductility measures the adhesive property of bitumen and its ability to stretch. It is necessary that binder should form a thin ductile film around aggregates to improve the interlocking of the aggregates in flexible pavements. It is important in pavement to resist crack due to temperature or traffic stresses to avoid damage the pavement structure. Specifically, the ductility of a bituminous material is defined as the distance in centimeters, to which it will elongate before breaking when two ends of a briquette specimen of the material are pulled apart at a specified speed and a specified temperature. A temperature of 25 &plusmn; 0.5 &deg;C and pulling speed of 5 cm/min &plusmn; 5.0 % is to be maintained while carrying out the experiment. The ductility of a bitumen specimen mainly gives information about the tensile strength and ductility grade of bitumen.</p>
 
 <center>
-  <img src="images/apparatus.png">
+  <img src="images/apparatus.PNG">
 </center>
 <center>
   Source: (<a href="http://www.expertsmind.com/questions/ductility-test-30129393.aspx">http://www.expertsmind.com/questions/ductility-test-30129393.aspx</a>)
