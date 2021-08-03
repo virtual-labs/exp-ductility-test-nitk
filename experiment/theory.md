@@ -56,4 +56,4 @@
 
 <p style="text-indent:50px; text-align:justify;"><strong>Relevant Indian Standard for Ductility Test on Bitumen</strong>: </p>
 <p style="text-indent:50px; text-align:justify;">IS 1208 -1978 Edition 2.1 (2004-10): Methods for Testing Tar and Bituminous Materials: Determination of Ductility (First Revision).</p>
-<p>IS 383-1970: Specification for Coarse and Fine Aggregates.</p>
+<p style="text-indent:50px; text-align:justify;">IS 383-1970: Specification for Coarse and Fine Aggregates.</p>
