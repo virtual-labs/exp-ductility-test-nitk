@@ -1,8 +1,6 @@
-
-#### Lagu paTa:
-
-##### Simulation Demo:  
-<li><a href="https://youtu.be/QngE2lkOUXI">https://youtu.be/QngE2lkOUXI</a></li>
+#### Lagu paTa:  
+**Simulation Demo**:    
+<li><a href="https://youtu.be/QngE2lkOUXI">https://youtu.be/QngE2lkOUXI</a></li>  
 
 <table style="text-align:justify;">
 <tr style="background-color: white">
