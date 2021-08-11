@@ -1,3 +1,9 @@
+### Lagu paTa:
+
+#### Simulation Demo:  
+<li><a href="https://youtu.be/QngE2lkOUXI">https://youtu.be/QngE2lkOUXI</a></li>
+
+
 <table style="text-align:justify;">
 <tr style="background-color: white">
 <th>References</th>
@@ -30,10 +36,7 @@ Contributors:
 </tr>
 </table>
  
-### Lagu paTa:
 
- #### Simulation Demo:
- <li><a href="https://youtu.be/QngE2lkOUXI">https://youtu.be/QngE2lkOUXI</a></li>
 
  
 
