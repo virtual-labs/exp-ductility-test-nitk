@@ -1,0 +1,50 @@
+[{
+		"question": "The brass plate and mould is placed in the water bath and it is kept at the specified temperature for about __ minutes",
+		"answers": {
+			"a": "5 to 7",
+			"b": "10 to 12",
+			"c": "20 to 25",
+			"d": "85 to 95"
+		},
+		"correctAnswer": "d"
+	},
+
+	{
+		"question": "Water Bath Temperature should be maintained at",
+		"answers": {
+			"a": "25 &plusmn; 0.1&deg;C",
+			"b": "27 &plusmn; 0.1&deg;C",
+			"c": "33 &plusmn; 0.1&deg;C",
+			"d": "39 &plusmn; 0.1&deg;C"
+		},
+		"correctAnswer": "b"
+	},
+
+	{
+		"question": "The Indian Standard for ductility test on bitumen is",
+		"answers": {
+			"a": "IS 1208-1978",
+			"b": "IS:1208-1985",
+			"c": "IS:1238-1978",
+			"d": "IS:1238-1985"
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"question": "CBR valueA minimum ductility value of __ has been specified by the BIS",
+		"answers": {
+			"a": "72.5 cm",
+			"b": "75.0 cm",
+			"c": "82.0cm",
+			"d": "85.0cm"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"question": "Bitumen should be adequately ductile to resist the cracking of pavement due to temperature stresses. (Say True or False)",
+		"answers": {
+			"a": "True",
+			"b": "False"
+		},
+		"correctAnswer": "a"
+	}]

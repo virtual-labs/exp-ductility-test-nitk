@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SOLVE</title>
+<link rel="stylesheet" href="css/duct.css" />
+<script type="text/javascript" src="js/duct.js"></script>
+<link href="css/mathstyle.css" rel="stylesheet" /><!--Stylesheet to display Math functions -->
+<script>
+var simsubscreennum=0;
+var temp=0;
+var data = [[0, 80, 80],
+			[0, 81, 81],
+			[0, 82, 82],
+			[0, 83, 83],
+			[0, 84, 84],
+			[0, 85, 85],
+			[0, 86, 86],
+			[0, 87, 87],
+			[0, 88, 88],
+			[0, 89, 89]
+			]
+// var box = document.querySelector(".simscreen"); 
+// document.querySelector( ".simscreen").addEventListener("onclick", updateDisplay, false); 
+//  alert(event.pageY); 
+
+// function updateDisplay(event) { 
+//   alert(event.pageX);
+// }
+
+// function getLoc(event,ht){
+//  alert(event.pageX);
+// }
+
+</script>
+</head>
+
+<body style="margin:0; font-family:verdana;">
+<div id="simscreen">
+<div id="title"><h3> DUCTILITY TEST ON BITUMEN </h3></div>
+
+<div class="simsubscreen" id="canvas0" >
+<h4 class="incanvas">Objective:</h4>
+<p class="incanvas" style="font-size:14px;">To determine the ductility value of asphaltic bitumen.
+</p><br/>
+<h4 class="incanvas">Apparatus used:</h4>
+<p class="incanvas" style="font-size:14px;">Briquette Mould, Ductility Setup, Water Bath, Bunsen Burner.</p>
+<img style="position:absolute; left:0px; top:165px;max-width:18%;width:100%;transform: rotateY(180deg)" src="images/man.png" />
+<img style="position:absolute; left:200px; top:250px;" src="images/table.png" />
+<!-- <img style="position:absolute; left:140px; top:280px;;cursor:pointer;" title="Ductility Setup" src="images/main.png" /> -->
+<img style="position:absolute; left:220px; top:200px;;cursor:pointer;max-width:65%;width:100%;" title="Ductility Setup" src="images/main.png" />
+<!-- <img style="position:absolute; left:270px; top:200px;cursor:pointer" title="Briquette mould " src="images/ductSpecimen.png" /><br> -->
+<!-- <img style="position:absolute; left:400px; top:200px;cursor:pointer" title="Briquette mould " src="images/ductSpecimen.png" /><br> -->
+<img style="position:absolute; left:340px; top:330px;cursor:pointer;max-width:12%;width:100%;" title="Briquette mould " src="images/ductPour1.png " /><br>
+<img style="position:absolute; left:480px; top:330px;cursor:pointer;max-width:12%;width:100%;" title="Briquette mould " src="images/ductPour1.png " /><br>
+<span class="tooltip" style="border-bottom:1px dotted ; color:red;">Description
+	<span class="tooltiptext">
+		<strong style="color:red">Ductility Test</strong>: is the property of bitumen that permits it to undergo great deformation or
+elongation.
+		
+	</span>
+	</span>
+</div>
+
+<div class="simsubscreen" id="canvas1" style="visibility:hidden;" >
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;1&nbsp;</span>
+	<p class="steptext">&nbsp;The bituminous material is heated to a pouring temperature and is poured to the briquette mould on a brass plate.</p>
+	<img id="can1-1" style="position:absolute; left:250px; top:300px;width:25%;cursor:pointer" src="images/bunsenoff.png" />
+	<img id="can1-2" style="position:absolute; left:160px; top:252px;cursor:pointer;visibility:hidden" src="images/sample.png" />
+	<img id="can1-3" style="position:absolute; left:0px; top:250px;cursor:pointer;visibility:hidden" src="images/bitPour.png" />
+	<img id="can1-4" style="position:absolute; left:295px; top:80px;cursor:pointer;visibility:hidden" src="images/thermometer.png" />
+	<img id="can1-6" style="position:absolute; left:476.8px; top:180px;cursor:pointer;visibility:hidden" src="images/moveZoom.png" />
+	<img id="can1-5" style="position:absolute; left:450px; top:80px;cursor:pointer;visibility:hidden" src="images/thermZoom.png" />
+	<img id="can1-8" style="position:absolute; left:30px; top:280px;cursor:pointer;visibility:hidden" src="images/basePlate.png" />
+	<img id="can1-8a" style="position:absolute; left:180px; top:280px;cursor:pointer;visibility:hidden" src="images/basePlate.png" />
+	<img id="can1-8b" style="position:absolute; left:32px; top:281px;cursor:pointer;visibility:hidden" src="images/pmAssembly.png" />
+	<img id="can1-8c" style="position:absolute; left:182px; top:281px;cursor:pointer;visibility:hidden" src="images/pmAssembly.png" />
+	<img id="can1-7" style="position:absolute; left:60px; top:280px;visibility:hidden;" src="images/ductPour1.png" />
+	<img id="can1-7a" style="position:absolute; left:210px; top:280px;visibility:hidden;" src="images/ductPour1.png" />
+	<img id="can1-12" style="position:absolute; left:80px; top:198px;cursor:pointer;visibility:hidden" src="images/tiltsample.png" />
+	<img id="can1-11" style="position:absolute; left:300px; top:180px;cursor:pointer;visibility:hidden" src="images/bitPour2s.png" />
+	<img id="can1-13" style="position:absolute; left:318px; top:180px;cursor:pointer;visibility:hidden" src="images/waterbath2.png" />
+	<p id="v1-1" style="position:absolute; left:400px; top:250px;cursor:pointer;width:300px;border:solid 1px black;background-color: black;color:white;font-family:verdana;font-size:14px;border-radius:5px;padding:10px;visibility:hidden;text-align:justify;"/>In order to prevent the material under test from sticking, coat the surface of the plate and interior surface of the sides of the mould with <span style="color:red">mercury</span> or by a mixture of equal parts of <span style="color:red">glycerin</span> and <span style="color:red">dextrin</span>.</p>
+	<p id="bitSample" style="position:absolute;left:0px;top:150px;font-family:verdana;font-size:14px;padding:5px;background-color:black;color:white;visibility:hidden;border-radius:5px">Grade of bitumen sample used here is: S90</p>
+</div>
+
+<div class="simsubscreen" id="canvas2" style="visibility:hidden;" >
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;2&nbsp;</span>
+	<p class="steptext">&nbsp;Place the sample in water bath maintained at a temperature of 27&deg;C for half an hour.</p>
+	<img id="can2-2" style="position:absolute; left:318px; top:180px;cursor:pointer;" src="images/waterbath2.png" />
+	<img id="can2-1a" style="position:absolute; left:32px; top:281px;cursor:pointer;" src="images/pmAssembly.png" />
+	<img id="can2-1b" style="position:absolute; left:182px; top:281px;cursor:pointer;" src="images/pmAssembly.png" />
+</div>
+
+<div class="simsubscreen" id="canvas3" style="visibility:hidden;">
+<strong class="incanvas">STEP</strong>
+<span class="circlebg">&nbsp;3&nbsp;</span>
+<p class="steptext">&nbsp;Adjust the pointer of the machine to read zero.</p>
+	<img id="can3-1" style="position:absolute; left:50px; top:250px;cursor:pointer;" src="images/machine1.png" />
+	<img id="can3-2" style="position:absolute; left:312px; top:280px;cursor:pointer;" src="images/emptyMove.png" />
+	<img id="can3-4" style="position:absolute; left:64px; top:280px;cursor:pointer;" src="images/water.png" />
+	<img id="can3-3" style="position:absolute; left:312px; top:280px;cursor:pointer;" src="images/movePart.png" />
+	<label for="r" style="position:absolute; left:200px; top:200px;cursor:pointer;font-family:verdana;font-size:14px">Set the reading : <input id="r" type="range" style="padding:-15px;cursor:pointer;" name="foo" min=108 max=312 step=10 value=250 onchange="setReadingPart(this);" autocomplete="off"></label>
+	<p id="v3-1" style="position:absolute; left:260px; top:220px;cursor:pointer;font-family:verdana;font-size:14px">Pointer is not set to zero</p>
+	
+</div>
+
+<div class="simsubscreen" id="canvas4" style="visibility:hidden;">
+<strong class="incanvas">STEP</strong>
+<span class="circlebg">&nbsp;4&nbsp;</span>
+<p class="steptext">&nbsp;Place the mould on the machine and hook the clips carefully on the machine without causing any initial strain.</p>
+	<img id="can4-1" style="position:absolute; left:50px; top:250px;cursor:pointer;" src="images/machine1.png" />	
+	<img id="can4-2" style="position:absolute; left:108px; top:280px;cursor:pointer;" src="images/emptyMove.png" />
+	<img id="can4-5b" style="position:absolute; left:63px; top:150px;cursor:pointer;visibility:hidden" src="images/mouldPlace.png" />
+	<img id="can4-5" style="position:absolute; left:63px; top:298px;cursor:pointer;visibility:hidden" src="images/mouldPlace2.png" />
+	<img id="can4-6a" style="position:absolute; left:96px; top:298px;cursor:pointer;visibility:hidden" src="images/upDuct.png" />
+	<img id="can4-6b" style="position:absolute; left:98px; top:323px;cursor:pointer;visibility:hidden" src="images/downDuct.png" />
+	<img id="can4-7a" style="position:absolute; left:69px; top:315px;cursor:pointer;visibility:hidden" src="images/sc1.png" />
+	<img id="can4-7b" style="position:absolute; left:150px; top:315px;cursor:pointer;visibility:hidden" src="images/sc1.png" />
+	<img id="can4-7c" style="position:absolute; left:69px; top:200px;cursor:pointer;visibility:hidden" src="images/sc2.png" />
+	<img id="can4-7d" style="position:absolute; left:150px; top:200px;cursor:pointer;visibility:hidden" src="images/sc2.png" />
+	<img id="can4-4" style="position:absolute; left:64px; top:280px;cursor:pointer;" src="images/water.png" />
+	<img id="can4-3" style="position:absolute; left:108px; top:280px;cursor:pointer;" src="images/movePart2.png" />
+	<p id="v4-1" style="position:absolute; left:200px; top:130px;cursor:pointer;width:300px;border:solid 1px black;background-color: black;color:white;font-family:verdana;font-size:14px;border-radius:5px;padding:10px;visibility:hidden"/>Mould with bitumen sample is taken out from waterbath.</p>
+</div>
+
+<div class="simsubscreen" id="canvas5" style="visibility:hidden;">
+<strong class="incanvas">STEP</strong>
+<span class="circlebg">&nbsp;5&nbsp;</span>
+<p class="steptext">&nbsp;Start the machine and apply the tension load at a speed of 50 mm per minute.</p>
+	<img id="can5-0a" style="position:absolute; left:540px; top:140px;cursor:pointer;"  title="Ductility Machine Front View" src="images/red.png" />		
+	<img id="can5-0" style="position:absolute; left:50px; top:90px;cursor:pointer;"  title="Ductility Machine Front View" src="images/main2.png" />	
+	<img id="can5-0b" style="position:absolute; left:590px; top:147px;cursor:pointer;"  title="Ductility Machine Front View" src="images/switchUp.png" />	
+	<img id="can5-0c" style="position:absolute; left:598px; top:147px;cursor:pointer;"  title="Ductility Machine Front View" src="images/switchUp.png" />	
+	<img id="can5-0d" style="position:absolute; left:606px; top:147px;cursor:pointer;"  title="Ductility Machine Front View" src="images/switchUp.png" />
+	<img id="can5-0e" style="position:absolute; left:535px; top:102px;cursor:pointer;"  title="Ductility Machine Front View" src="images/nob.png" />	
+	<img id="can5-1" style="position:absolute; left:50px; top:270px;cursor:pointer;" title="Ductility Machine Top View"  src="images/mac2.png" />	
+	<img id="can5-1a" style="position:absolute; left:560px; top:350px;cursor:pointer;" title="Ductility Machine Top View"  src="images/n1.png" />	
+	<img id="can5-6" style="position:absolute; left:94px; top:322px;cursor:pointer;" src="images/st.png" /> 
+	<img id="can5-7" style="position:absolute; left:165px; top:315px;cursor:pointer;" src="images/papermv.png" />
+
+	<img id="can5-2" style="position:absolute; left:108px; top:300px;cursor:pointer;" src="images/emptyMove1.png" />
+	<img id="can5-2a" style="position:absolute; left:85px; top:299px;cursor:pointer;" src="images/rightmv.png" />
+	<img id="can5-7a" style="position:absolute; left:69px; top:335px;cursor:pointer;" src="images/sc1.png" />
+	<img id="can5-4" style="position:absolute; left:64px; top:300px;cursor:pointer;" src="images/water.png" />
+	<img id="can5-3" style="position:absolute; left:108px; top:300px;cursor:pointer;" src="images/movePart2.png" />
+	<table id="finalResult" border = "1px" style="position:absolute;left:100px;top:100px;font-family:verdana;font-size:14px;text-align:center;width:75%;visibility:hidden" >
+		<tr>
+			<td>Trial No</td>
+			<td>Initial Reading (cm)</td>
+			<td>Final Reading (cm) </td>
+			<td>Ductility Value (cm)</td>
+		</tr>
+	</table>
+</div>
+
+<div id="canvas6" class="simsubscreen" style="visibility:hidden;">
+<strong class="incanvas">STEP</strong>
+<span class="circlebg">&nbsp;6&nbsp;</span>
+<p class="steptext">&nbsp;Observation and Results.</p>
+	<table id="lastResult" border = "1px" style="position:absolute;left:50px;top:100px;font-family:verdana;font-size:14px;text-align:center;width:75%;" >
+		<tr>
+			<td>Trial No</td>
+			<td>Initial Reading (cm)</td>
+			<td>Final Reading (cm) </td>
+			<td>Ductility Value (cm)</td>
+		</tr>
+	</table>
+	<h4 id="p8-1" style="position:absolute; left:-450px; top:250px;font-family:verdana;visibility:hidden">The minimum ductility value for S90 grade of bitumen is 75cm, hence bitumen with this ductility value is suitable for pavement construction.</h4>
+</div>
+
+<span id="tooltip-span"></span>
+
+<div id="">	
+<p id="trial" style="text-transform: uppercase;visibility :hidden;font-weight: bold;font-family:verdana; font-size:14px;"><strong>Trial = </strong></p>
+</div>
+
+<!-- nextButton -->
+<div id="nav">
+<img id="nextButton" onclick="navNext()" src="images/Next.png" />
+</div>
+
+<!-- dialog division -->
+<span id="dialog-div" style="text-align:justify;border-radius: 5px;">
+	<p id="divp" style="font-family:verdana; font-size:14px;padding: 5px">Both ends of the pipe must be trimmed to ensure parallel faces.</p>
+	<input type="button" style="cursor:pointer;border-radius: 5px;margin: 0 auto; padding: 0;display: inline-block;text-align: center;" value="OK" onclick = "hideDialog();">
+</span>
+
+
+<!-- This is the questions division -->
+<span id="question-div">
+	 <p id="divq" style="font-family:verdana; font-size:14px;">Both ends of the pipe must be trimmed to ensure parallel faces.</p>
+	 <!-- <input type="button" style="cursor:pointer" value="OK" onclick = "evaluateAnswer();"> -->
+	 <p id="ans"></p>
+</span>
+ 
+<!--Blinking Arrow	-->	
+<img class ="" id="arrow1" style="visibility:hidden;" src="images/arrow1.png"/>
+
+<div id="copyright"> &copy; 2018 - <script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
+
+</div>
+<script src="../assets/js/iframeResize.js"></script></body> 
+</html>

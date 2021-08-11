@@ -1,0 +1,51 @@
+[{
+    "question": "The majority of Bitumen used commercially is obtained from",
+    "answers": {
+      "a": "Tar",
+      "b": "Asphalt",
+      "c": "Petroleum",
+      "d": "All of the above"
+    },
+    "correctAnswer": "c"
+  },
+
+  {
+    "question": "__can be used as paint in cold weather conditions.",
+    "answers": {
+      "a": "Cutback bitumen",
+      "b": "Bitumen emulsion",
+      "c": "Plastic bitumen",
+      "d": "Blown bitumen"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The minimum ductility value of S90 grade bitumen is",
+    "answers": {
+      "a": "30cm",
+      "b": "55cm",
+      "c": "75cm",
+      "d": "60cm"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The advantages of using modified bitumen are:",
+    "answers": {
+      "a": "Lower susceptibility to daily and seasonal temperature variations",
+      "b": "Higher resistance to deformation at high pavement temperature",
+      "c": "Better adhesion between aggregates and binder",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Good bitumen should have<br>1. Temperature susceptibility<br>2. Adequate viscosity<br>3. Affinity and Adhesion",
+    "answers": {
+      "a": "Only 1 is correct",
+      "b": "Only 2 and 3 are correct",
+      "c": "Only 3 is correct",
+      "d": "All are correct"
+    },
+    "correctAnswer": "d"
+  }]
